@@ -10,14 +10,14 @@ params:
     subtitle: |-
     #  A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
     #  AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Pham Viet Hung, ex-strategy consultant and MBA candidate at London Business School
+    title: Pham Viet Hung \r\n ex-strategy consultant \r\n MBA candidate at London Business School
   blog: {}
   contact:
     address:
-      - city: London NW1 6NE
+      - city: London
         country: United Kingdom
-        street: 62 Balcombe Street
-        title: Address
+        #street: 62 Balcombe Street
+        #title: Address
     buttonClear: Clear
     buttonSend: Send message
     email:
@@ -38,9 +38,9 @@ params:
     #copyright: Company Name
     enable: yes
     quicklinks:
-      - alt: HTML5 UP
-        text: 'Design: '
-        url: https://www.html5up.net
+    #  - alt: PORTFOLIO WEBSITE
+    #    text: 'Design: '
+    #    url: https://pham-viet-hung.netlify.app/
     social:
     #  - icon: fa-twitter
     #    label: Twitter
@@ -76,13 +76,13 @@ params:
       - name: Elements
         url: elements.html
     menu: Menu
-    subtitle: By HTML5 Up
-    title: Forty
+    subtitle: PORTFOLIO WEBSITE
+    title: PHAM VIET HUNG
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
+      - image: lbs.jpg
+        subtitle: Candidate London Business School
         title: Aliquam
         url: blogs/aliquam
       - image: pic02.jpg
