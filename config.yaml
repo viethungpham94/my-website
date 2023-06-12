@@ -6,11 +6,11 @@ googleAnalytics: ''
 disqusShortname: ''
 params:
   banner: 
-    buttonText: A
+    buttonText: Get Started
     subtitle: |-
     #  A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
     #  AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Pham Viet Hung \r\n ex-strategy consultant \r\n MBA candidate at London Business School
+    title: Pham Viet Hung's Data Analytics Portfolio
   blog: {}
   contact:
     address:
@@ -25,8 +25,8 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (+44) 7377 936 195 x1234
-        title: Phone
+      - phone: (+44) 7377 936 195
+        title: Mobile
   custom_css: []
   custom_js: []
   description: Your description
@@ -62,19 +62,21 @@ params:
   navigation:
     button1:
       - name: CV/Resume
-        url: blogs
-    button2:
-      - name: Log In
-        url: '#'
+        url: CV.pdf
+    #button2:
+    #  - name: Log In
+    #    url: '#'
     links:
       - name: Home
         url: '#'
-      #- name: CV
-      #  url: CV.pdf
-      #- name: Generic Blog
-      #  url: blogs/ipsum
-      #- name: Elements
-      #  url: elements.html
+      - name: London Business School
+        url: blogs/LBS
+      - name: Operational Intelligence
+        url: blogs/OI
+      - name: Expertise Network
+        url: blogs/EN
+      - name: Mass Shooting Analysis
+        url: blogs/MSA
     menu: Menu
     subtitle: PORTFOLIO WEBSITE
     title: PHAM VIET HUNG
@@ -82,32 +84,32 @@ params:
     enable: yes
     showcase:
       - image: lbs.jpg
-        subtitle: Candidate London Business School
-        title: Aliquam
-        url: blogs/risk_return
+        subtitle: My story in strategy consulting and London Business School
+        title: Background
+        url: blogs/LBS
       - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
+        subtitle: Built a  
+        title: Operational Intelligence
+        url: blogs/OI
       - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
+        subtitle: Support NHS
+        title: Expertise Network
         url: blogs/magna
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
-        url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+      - image: spices.jpg
+        subtitle: LBS Coursework - Analysis of Dow Jones Industrial Average (DJIA)
+        title: Risk-Return of DJIA Stock
+        url: blogs/risk_return
+      #- image: pic05.jpg
+      #  subtitle: Ipsum Dolor Sit Amet
+      #  title: Consequat
+      #  url: blogs/ipsum
+      #- image: pic06.jpg
+      #  subtitle: Feugiat Amet Tempus
+      #  title: Etiam
+      #  url: blogs/ipsum
   two:
     buttonText: Get Started
-    enable: yes
+    enable: no
     subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
       \r\n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \r\n    Pellentesque
       condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
