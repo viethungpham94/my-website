@@ -5,8 +5,8 @@ theme: forty
 googleAnalytics: ''
 disqusShortname: ''
 params:
-  banner: spice.jpg
-    buttonText: Get Started
+  banner: 
+    buttonText: A
     subtitle: |-
     #  A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
     #  AND RELEASED UNDER THE CREATIVE COMMONS.
@@ -61,7 +61,7 @@ params:
   name: Pham Viet Hung
   navigation:
     button1:
-      - name: Get Started
+      - name: CV/Resume
         url: blogs
     button2:
       - name: Log In
@@ -69,12 +69,12 @@ params:
     links:
       - name: Home
         url: '#'
-      - name: Blogs
-        url: blogs
-      - name: Generic Blog
-        url: blogs/ipsum
-      - name: Elements
-        url: elements.html
+      #- name: CV
+      #  url: CV.pdf
+      #- name: Generic Blog
+      #  url: blogs/ipsum
+      #- name: Elements
+      #  url: elements.html
     menu: Menu
     subtitle: PORTFOLIO WEBSITE
     title: PHAM VIET HUNG
