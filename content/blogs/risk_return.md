@@ -1,15 +1,14 @@
 ---
-categories:  
-- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
-- ""
+title: "Risk-Return of DJIA stocks"
 date: "2021-09-30"
-description: Risk-Return of DJIA stocks # the title that will show up once someone gets to this page
-draft: false
-image: spices.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
-
-keywords: ""
-slug: risk_return # slug is the shorthand URL address... no spaces plz
-title: Risk-Return of DJIA stocks
+description: "Risk-Return of DJIA stocks"
+draft: no
+image: spices.jpg
+keywords: ''
+slug: RR
+categories:
+- ''
+- ''
 ---
   
 
@@ -19,11 +18,9 @@ title: Risk-Return of DJIA stocks
 
 
 
-
-
 # Returns of financial stocks
 
-Next, let's choose the [Dow Jones Industrial Average (DJIA)](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average) stocks and their ticker symbols and download some data. Besides the thirty stocks that make up the DJIA, we will also add `SPY` which is an SP500 ETF (Exchange Traded Fund).
+Let's choose the [Dow Jones Industrial Average (DJIA)](https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average) stocks and their ticker symbols and download some data. Besides the thirty stocks that make up the DJIA, we will also add `SPY` which is an SP500 ETF (Exchange Traded Fund).
 
 We will use the `rvest` package to scrape the Wikipedia page for the constituents of DJIA
 

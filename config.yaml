@@ -85,7 +85,7 @@ params:
     showcase:
       - image: lbs.jpg
         subtitle: My story in strategy consulting and London Business School
-        title: Background
+        title: Introduction
         url: blogs/LBS
       - image: pic02.jpg
         subtitle: Built a  
@@ -98,7 +98,7 @@ params:
       - image: spices.jpg
         subtitle: LBS Coursework - Analysis of Dow Jones Industrial Average (DJIA)
         title: Risk-Return of DJIA Stock
-        url: blogs/risk_return
+        url: blogs/RR
       #- image: pic05.jpg
       #  subtitle: Ipsum Dolor Sit Amet
       #  title: Consequat
